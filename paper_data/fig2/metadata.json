@@ -1,0 +1,19 @@
+{
+  "figure_mapping": "Figure 2, tuned MLP panels",
+  "kind": "raw and aggregate",
+  "source_zip": "mlp_classifier_first_latest_complete_no_checkpoints_20260721(1).zip",
+  "source_zip_sha256": "15789FA444BCD20C373DDBD9EEC15F332983E277C8E3C625F5D269051E9CABDE",
+  "source_relative_path": "mlp_classifier_first_hparam_search_20260721/selected_artifacts/",
+  "files": {
+    "mlp_raw_metrics.csv": {
+      "rows": 3015,
+      "columns": ["K", "seed", "epoch", "classifier_score", "embedding_score", "train_loss", "train_accuracy", "test_accuracy"]
+    },
+    "mlp_aggregate_metrics.csv": {
+      "rows": 603,
+      "columns": ["K", "epoch", "classifier_mean", "classifier_sample_sd", "embedding_mean", "embedding_sample_sd", "n_seeds"]
+    },
+    "mlp_onset_by_run.csv": {"rows": 15, "columns": ["K", "seed", "classifier_onset", "embedding_onset", "lead", "classifier_first", "classifier_censored", "embedding_censored", "final_test_accuracy"]}
+  },
+  "limitations": "Aggregate data for Transformer, LSTM, and RNN were not supplied."
+}

@@ -1,0 +1,25 @@
+experiment: fig_s4
+protocol: alignment
+formal: true
+device: cuda
+train_fraction: 0.7
+grid:
+  architectures: [mlp, transformer, lstm, rnn]
+  moduli: [79, 97, 113]
+  seeds: [1, 2, 3, 4, 5]
+model:
+  mlp_embedding_dim: 256
+  mlp_hidden_dim: 128
+training:
+  epochs: 20000
+  requested_checkpoints: 321
+  embedding_lr: 0.001
+  other_lr: 0.001
+  embedding_weight_decay: 0.0
+  other_weight_decay: 0.4
+  betas: [0.9, 0.999]
+metrics:
+  names: [centered_feature_classifier]
+  shuffle_controls: 16
+  shuffle_seed_rule: 10000 + training_seed
+

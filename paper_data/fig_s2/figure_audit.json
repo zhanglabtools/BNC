@@ -1,0 +1,41 @@
+{
+  "validated_runs": 60,
+  "architectures": [
+    "mlp",
+    "transformer",
+    "lstm",
+    "rnn"
+  ],
+  "K_values": [
+    79,
+    97,
+    113
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "metric_rows_per_run": 561,
+  "plotted_metric": "effective_mean_participation_rank",
+  "final_target": 2.0,
+  "final_group_tolerance": 0.1,
+  "final_individual_tolerance": 0.15,
+  "font": "Arial",
+  "font_path": "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
+  "horizontal_grid_lines": false,
+  "title": null,
+  "caption_inside_figure": false,
+  "architecture_labels": "centered above every subplot; no panel letters",
+  "y_tick_numbers_on_every_subplot": true,
+  "independent_y_limits": "0 to nearest multiple of 5 above mean + std; LSTM fixed to 0-15",
+  "y_tick_step": 5,
+  "figure_size_inches": [
+    18.0,
+    4.5
+  ],
+  "layout_profile": "compact publication four-panel",
+  "x_scale": "log(1 + epoch)"
+}

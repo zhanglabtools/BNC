@@ -1,0 +1,50 @@
+{
+  "fig1": {
+    "status": "blocked",
+    "reason": "bundled ZIP has a PNG and metrics but no coordinate data/checkpoint"
+  },
+  "fig2_full": {
+    "status": "blocked",
+    "reason": "other-architecture aggregate CSV was not supplied"
+  },
+  "fig2_mlp": {
+    "status": "created",
+    "files": [
+      "figures\\paper_data\\fig2_mlp.png",
+      "figures\\paper_data\\fig2_mlp.pdf",
+      "figures\\paper_data\\fig2_mlp.svg"
+    ]
+  },
+  "fig_s1": {
+    "status": "created",
+    "files": [
+      "figures\\paper_data\\fig_s1.png",
+      "figures\\paper_data\\fig_s1.pdf",
+      "figures\\paper_data\\fig_s1.svg"
+    ]
+  },
+  "fig_s2": {
+    "status": "created",
+    "files": [
+      "figures\\paper_data\\fig_s2.png",
+      "figures\\paper_data\\fig_s2.pdf",
+      "figures\\paper_data\\fig_s2.svg"
+    ]
+  },
+  "fig_s3": {
+    "status": "created",
+    "files": [
+      "figures\\paper_data\\fig_s3.png",
+      "figures\\paper_data\\fig_s3.pdf",
+      "figures\\paper_data\\fig_s3.svg"
+    ]
+  },
+  "fig_s4": {
+    "status": "created",
+    "files": [
+      "figures\\paper_data\\fig_s4.png",
+      "figures\\paper_data\\fig_s4.pdf",
+      "figures\\paper_data\\fig_s4.svg"
+    ]
+  }
+}

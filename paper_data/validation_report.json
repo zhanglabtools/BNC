@@ -1,0 +1,37 @@
+[
+  {
+    "figure": "fig1",
+    "status": "reference-artifact-only",
+    "plot_only": "blocked-by-missing-coordinate-data-or-checkpoint"
+  },
+  {
+    "figure": "fig2",
+    "status": "mlp-data-validated",
+    "raw_rows": 3015,
+    "aggregate_rows": 603,
+    "four_architecture_plot": "blocked-by-missing-other-aggregate"
+  },
+  {
+    "figure": "fig_s1",
+    "status": "validated",
+    "raw_rows": 39520,
+    "summary_rows": 7904
+  },
+  {
+    "figure": "fig_s2",
+    "status": "validated",
+    "raw_rows": 33660,
+    "summary_rows": 6732
+  },
+  {
+    "figure": "fig_s3",
+    "status": "validated",
+    "summary_rows": 2880
+  },
+  {
+    "figure": "fig_s4",
+    "status": "validated",
+    "raw_rows": 14400,
+    "summary_rows": 2880
+  }
+]

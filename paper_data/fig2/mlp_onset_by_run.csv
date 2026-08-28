@@ -1,0 +1,16 @@
+K,seed,classifier_onset,embedding_onset,lead,classifier_first,classifier_censored,embedding_censored,final_test_accuracy
+79,1,4200,,,False,False,True,1.0
+79,2,3000,,,False,False,True,1.0
+79,3,1700,7450,5750,True,False,False,1.0
+79,4,7600,,,False,False,True,1.0
+79,5,1750,2600,850,True,False,False,1.0
+97,1,1650,2800,1150,True,False,False,1.0
+97,2,2350,4050,1700,True,False,False,1.0
+97,3,650,1000,350,True,False,False,1.0
+97,4,1550,6950,5400,True,False,False,1.0
+97,5,2100,3700,1600,True,False,False,1.0
+113,1,1800,1950,150,True,False,False,0.9999999403953552
+113,2,900,1200,300,True,False,False,0.9999999403953552
+113,3,450,850,400,True,False,False,0.9999999403953552
+113,4,1400,,,False,False,True,0.9999999403953552
+113,5,3500,9000,5500,True,False,False,0.9999999403953552

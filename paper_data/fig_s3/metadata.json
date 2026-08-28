@@ -1,0 +1,13 @@
+{
+  "figure_mapping": "Figure S3",
+  "kind": "aggregate",
+  "source_zip": "embedding_classifier_alignment_20k_figure_code_data_notes_20260731(1).zip",
+  "source_zip_sha256": "7401412DEDFB3B29CAF87A53CBC748A6B8ADF1D6C53F2B6D8FD2B6524FEE58CA",
+  "source_relative_path": "embedding_classifier_alignment_20k_figure_bundle_20260731/data/alignment_summary_by_architecture_epoch.csv",
+  "files": {
+    "alignment_summary.csv": {
+      "rows": 2880,
+      "columns": ["architecture", "K", "epoch", "matched_mean", "matched_std", "shuffled_mean", "shuffled_std", "n_seeds"]
+    }
+  }
+}

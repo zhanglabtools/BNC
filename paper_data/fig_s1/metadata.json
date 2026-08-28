@@ -1,0 +1,17 @@
+{
+  "figure_mapping": "Figure S1",
+  "kind": "raw compressed and aggregate",
+  "source_zip": "classifier_rank_lambda_figure_ymax10_code_and_explanation_20260731.zip",
+  "source_zip_sha256": "641B4DFB9B3106E5CA735599935BDCB28E9B8E2EF1A148EF63B003813CE49CBA",
+  "source_relative_path": "classifier_rank_lambda_figure_ymax10_package_20260731/data/",
+  "files": {
+    "all_runs_metrics.csv.gz": {
+      "rows": 39520,
+      "columns": ["architecture", "K", "seed", "lambda_reg", "epoch", "learning_rate", "train_loss", "test_loss", "train_accuracy", "test_accuracy", "rank_regularizer", "rx_participation_rank", "ry_participation_rank", "effective_mean_participation_rank", "rx_entropy_rank", "ry_entropy_rank", "effective_mean_entropy_rank", "rx_top2_tail", "ry_top2_tail", "effective_mean_top2_tail", "classifier_participation_rank", "classifier_entropy_rank", "classifier_top2_tail", "classifier_numerical_rank", "tail_gate", "nominal_rank"]
+    },
+    "mean_std_trajectory.csv": {
+      "rows": 7904,
+      "columns": ["architecture", "lambda_reg", "epoch", "valid_seed_count", "train_accuracy_mean", "train_accuracy_std", "test_accuracy_mean", "test_accuracy_std", "rank_regularizer_mean", "rank_regularizer_std", "classifier_participation_rank_mean", "classifier_participation_rank_std", "effective_mean_participation_rank_mean", "effective_mean_participation_rank_std"]
+    }
+  }
+}

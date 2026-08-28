@@ -1,0 +1,15 @@
+{
+  "figure_mapping": "Figure 1",
+  "kind": "reference artifact",
+  "source_zip": "mod97_modular_addition_pca_code_20260717.zip",
+  "source_zip_sha256": "F2C76E58FFCDB3EAD95A21841152DFC9F9E86004314DCF6CEF49EF5ACAE17C01",
+  "source_relative_paths": [
+    "reference_figure/metrics.json",
+    "reference_figure/mod97_pca_raw_x_paper_mono_blue.png"
+  ],
+  "files": {
+    "bundled_reference_metrics.json": {"rows": null, "columns": null},
+    "bundled_reference.png": {"rows": null, "columns": null}
+  },
+  "limitations": "No coordinate table or checkpoint was supplied, so this artifact cannot be numerically replotted without rerunning training."
+}

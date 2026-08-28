@@ -1,0 +1,294 @@
+{
+  "K_values": [
+    79,
+    97,
+    113
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "threshold": 0.9,
+  "consecutive": 2,
+  "by_K": {
+    "79": {
+      "classifier_first_count": 2,
+      "complete_onset_pairs": 2,
+      "classifier_right_censored_count": 0,
+      "embedding_right_censored_count": 3,
+      "lead": {
+        "mean": 3300,
+        "sample_sd": 3464.8232278140827,
+        "median": 3300.0,
+        "n": 2
+      },
+      "classifier_onset": {
+        "mean": 3650,
+        "sample_sd": 2436.1855430159667,
+        "median": 3000,
+        "n": 5
+      },
+      "embedding_onset": {
+        "mean": 5025,
+        "sample_sd": 3429.4678887547557,
+        "median": 5025.0,
+        "n": 2
+      },
+      "final_test_accuracy": {
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "n": 5
+      },
+      "onsets_by_seed": [
+        {
+          "K": 79,
+          "seed": 1,
+          "classifier_onset": 4200,
+          "embedding_onset": null,
+          "lead": null,
+          "classifier_first": false,
+          "classifier_censored": false,
+          "embedding_censored": true,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 79,
+          "seed": 2,
+          "classifier_onset": 3000,
+          "embedding_onset": null,
+          "lead": null,
+          "classifier_first": false,
+          "classifier_censored": false,
+          "embedding_censored": true,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 79,
+          "seed": 3,
+          "classifier_onset": 1700,
+          "embedding_onset": 7450,
+          "lead": 5750,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 79,
+          "seed": 4,
+          "classifier_onset": 7600,
+          "embedding_onset": null,
+          "lead": null,
+          "classifier_first": false,
+          "classifier_censored": false,
+          "embedding_censored": true,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 79,
+          "seed": 5,
+          "classifier_onset": 1750,
+          "embedding_onset": 2600,
+          "lead": 850,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        }
+      ]
+    },
+    "97": {
+      "classifier_first_count": 5,
+      "complete_onset_pairs": 5,
+      "classifier_right_censored_count": 0,
+      "embedding_right_censored_count": 0,
+      "lead": {
+        "mean": 2040,
+        "sample_sd": 1952.3703542104915,
+        "median": 1600,
+        "n": 5
+      },
+      "classifier_onset": {
+        "mean": 1660,
+        "sample_sd": 652.3036102920173,
+        "median": 1650,
+        "n": 5
+      },
+      "embedding_onset": {
+        "mean": 3700,
+        "sample_sd": 2167.0832932769335,
+        "median": 3700,
+        "n": 5
+      },
+      "final_test_accuracy": {
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "n": 5
+      },
+      "onsets_by_seed": [
+        {
+          "K": 97,
+          "seed": 1,
+          "classifier_onset": 1650,
+          "embedding_onset": 2800,
+          "lead": 1150,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 97,
+          "seed": 2,
+          "classifier_onset": 2350,
+          "embedding_onset": 4050,
+          "lead": 1700,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 97,
+          "seed": 3,
+          "classifier_onset": 650,
+          "embedding_onset": 1000,
+          "lead": 350,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 97,
+          "seed": 4,
+          "classifier_onset": 1550,
+          "embedding_onset": 6950,
+          "lead": 5400,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        },
+        {
+          "K": 97,
+          "seed": 5,
+          "classifier_onset": 2100,
+          "embedding_onset": 3700,
+          "lead": 1600,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 1.0
+        }
+      ]
+    },
+    "113": {
+      "classifier_first_count": 4,
+      "complete_onset_pairs": 4,
+      "classifier_right_censored_count": 0,
+      "embedding_right_censored_count": 1,
+      "lead": {
+        "mean": 1587.5,
+        "sample_sd": 2610.355978278314,
+        "median": 350.0,
+        "n": 4
+      },
+      "classifier_onset": {
+        "mean": 1610,
+        "sample_sd": 1172.8171212938528,
+        "median": 1400,
+        "n": 5
+      },
+      "embedding_onset": {
+        "mean": 3250,
+        "sample_sd": 3860.6994184991922,
+        "median": 1575.0,
+        "n": 4
+      },
+      "final_test_accuracy": {
+        "mean": 0.9999999403953552,
+        "sample_sd": 0.0,
+        "median": 0.9999999403953552,
+        "n": 5
+      },
+      "onsets_by_seed": [
+        {
+          "K": 113,
+          "seed": 1,
+          "classifier_onset": 1800,
+          "embedding_onset": 1950,
+          "lead": 150,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 0.9999999403953552
+        },
+        {
+          "K": 113,
+          "seed": 2,
+          "classifier_onset": 900,
+          "embedding_onset": 1200,
+          "lead": 300,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 0.9999999403953552
+        },
+        {
+          "K": 113,
+          "seed": 3,
+          "classifier_onset": 450,
+          "embedding_onset": 850,
+          "lead": 400,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 0.9999999403953552
+        },
+        {
+          "K": 113,
+          "seed": 4,
+          "classifier_onset": 1400,
+          "embedding_onset": null,
+          "lead": null,
+          "classifier_first": false,
+          "classifier_censored": false,
+          "embedding_censored": true,
+          "final_test_accuracy": 0.9999999403953552
+        },
+        {
+          "K": 113,
+          "seed": 5,
+          "classifier_onset": 3500,
+          "embedding_onset": 9000,
+          "lead": 5500,
+          "classifier_first": true,
+          "classifier_censored": false,
+          "embedding_censored": false,
+          "final_test_accuracy": 0.9999999403953552
+        }
+      ]
+    }
+  },
+  "frozen_config": {
+    "model": "role-specific bias-free one-hidden-layer ReLU MLP",
+    "embedding_dim": 512,
+    "hidden_dim": 512,
+    "embedding_lr": 0.0002,
+    "decoder_lr": 0.003,
+    "embedding_weight_decay": 0.0,
+    "decoder_weight_decay": 0.4,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "max_epoch": 10000,
+    "checkpoint_every": 50
+  }
+}

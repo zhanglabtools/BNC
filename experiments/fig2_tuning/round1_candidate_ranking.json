@@ -1,0 +1,200 @@
+[
+  {
+    "name": "e2e-4_d2e-3_wd0p8",
+    "embedding_lr": 0.0002,
+    "decoder_lr": 0.002,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 2,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 2,
+    "classifier_onset_mean": 1200,
+    "embedding_onset_mean": 2475,
+    "lead_mean": 1275,
+    "target_distance": 4.378227777777778,
+    "eligible": true,
+    "selection_key": [
+      1,
+      2,
+      0,
+      2,
+      -4.378227777777778
+    ]
+  },
+  {
+    "name": "e1e-4_d2e-3_wd0p8",
+    "embedding_lr": 0.0001,
+    "decoder_lr": 0.002,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 2,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 4266.666666666667,
+    "embedding_onset_mean": 700,
+    "lead_mean": 400,
+    "target_distance": 67.57408888888891,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      2,
+      1,
+      -67.57408888888891
+    ]
+  },
+  {
+    "name": "e5e-5_d4e-3_wd0p8",
+    "embedding_lr": 5e-05,
+    "decoder_lr": 0.004,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 1,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 2425,
+    "embedding_onset_mean": 4425,
+    "lead_mean": 150,
+    "target_distance": 20.86460277777778,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      1,
+      1,
+      -20.86460277777778
+    ]
+  },
+  {
+    "name": "e5e-5_d2e-3_wd0p8",
+    "embedding_lr": 5e-05,
+    "decoder_lr": 0.002,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 1,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 3025,
+    "embedding_onset_mean": 1000,
+    "lead_mean": 600,
+    "target_distance": 33.07992222222222,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      1,
+      1,
+      -33.07992222222222
+    ]
+  },
+  {
+    "name": "e1e-4_d4e-3_wd0p8",
+    "embedding_lr": 0.0001,
+    "decoder_lr": 0.004,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 1,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 3425,
+    "embedding_onset_mean": 1575,
+    "lead_mean": 350,
+    "target_distance": 42.657269444444445,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      1,
+      1,
+      -42.657269444444445
+    ]
+  },
+  {
+    "name": "e5e-5_d4e-3_wd1p2",
+    "embedding_lr": 5e-05,
+    "decoder_lr": 0.004,
+    "decoder_wd": 1.2,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 2,
+    "classifier_onset_mean": 4650,
+    "embedding_onset_mean": 2200,
+    "lead_mean": -2450,
+    "target_distance": 82.59281111111112,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      0,
+      2,
+      -82.59281111111112
+    ]
+  },
+  {
+    "name": "e2e-5_d2e-3_wd0p8",
+    "embedding_lr": 2e-05,
+    "decoder_lr": 0.002,
+    "decoder_wd": 0.8,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 500,
+    "embedding_onset_mean": 2400,
+    "lead_mean": 1900,
+    "target_distance": 0.5571999999999999,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      0,
+      1,
+      -0.5571999999999999
+    ]
+  },
+  {
+    "name": "e1e-4_d2e-3_wd1p2",
+    "embedding_lr": 0.0001,
+    "decoder_lr": 0.002,
+    "decoder_wd": 1.2,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 300,
+    "embedding_onset_mean": 650,
+    "lead_mean": 350,
+    "target_distance": 1.5197555555555557,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      0,
+      1,
+      -1.5197555555555557
+    ]
+  },
+  {
+    "name": "e5e-5_d2e-3_wd1p2",
+    "embedding_lr": 5e-05,
+    "decoder_lr": 0.002,
+    "decoder_wd": 1.2,
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 1,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 1,
+    "classifier_onset_mean": 450,
+    "embedding_onset_mean": 900,
+    "lead_mean": 450,
+    "target_distance": 1.5388111111111114,
+    "eligible": true,
+    "selection_key": [
+      1,
+      1,
+      0,
+      1,
+      -1.5388111111111114
+    ]
+  }
+]

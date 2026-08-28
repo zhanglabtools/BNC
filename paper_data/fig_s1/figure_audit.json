@@ -1,0 +1,97 @@
+{
+  "validated_runs": 160,
+  "architectures": [
+    "mlp",
+    "transformer",
+    "lstm",
+    "rnn"
+  ],
+  "K_fixed": 97,
+  "lambda_values": [
+    0.01,
+    0.1,
+    0.5,
+    0.7,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "metric_rows_per_run": 247,
+  "frozen_non_lambda_config": {
+    "K": 97,
+    "max_rank": 16,
+    "target_rank": 2,
+    "gate_start": 1,
+    "gate_end": 6000,
+    "target_loss_weight": 1.0,
+    "frac_train": 0.7,
+    "epochs": 10000,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "min_lr": 1e-05,
+    "scheduler": "cosine",
+    "weight_decay": 0.5,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "full_batch": true
+  },
+  "regularizer": "0.5 * (mean(A_tail^2) + mean(B_tail^2)); loss adds lambda * regularizer",
+  "font": "Arial",
+  "font_path": "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
+  "horizontal_grid_lines": false,
+  "title": null,
+  "caption_inside_figure": false,
+  "x_scale": "log(epoch), epoch >= 1",
+  "axis_tick_numbers": "shown on both axes in every panel",
+  "axis_labels": "Epoch and Participation rank centered on every panel axis",
+  "panel_y_axis_maximum": {
+    "mlp": "automatic",
+    "transformer": 10,
+    "lstm": "automatic",
+    "rnn": 10
+  },
+  "final_rank_2_invariant": true,
+  "figures": [
+    "classifier rank lambda ablation"
+  ],
+  "trend_summary": [
+    {
+      "architecture": "lstm",
+      "spearman_lambda_vs_halfway_epoch": -1.0,
+      "spearman_lambda_vs_log_epoch_auc": -1.0,
+      "halfway_epoch_lambda_0p01": 1220.0,
+      "halfway_epoch_lambda_3": 79.0
+    },
+    {
+      "architecture": "mlp",
+      "spearman_lambda_vs_halfway_epoch": -1.0,
+      "spearman_lambda_vs_log_epoch_auc": -1.0,
+      "halfway_epoch_lambda_0p01": 372.0,
+      "halfway_epoch_lambda_3": 82.0
+    },
+    {
+      "architecture": "rnn",
+      "spearman_lambda_vs_halfway_epoch": -1.0,
+      "spearman_lambda_vs_log_epoch_auc": -1.0,
+      "halfway_epoch_lambda_0p01": 352.0,
+      "halfway_epoch_lambda_3": 143.0
+    },
+    {
+      "architecture": "transformer",
+      "spearman_lambda_vs_halfway_epoch": -1.0,
+      "spearman_lambda_vs_log_epoch_auc": -1.0,
+      "halfway_epoch_lambda_0p01": 278.0,
+      "halfway_epoch_lambda_3": 164.0
+    }
+  ]
+}

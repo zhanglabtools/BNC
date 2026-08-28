@@ -1,0 +1,30 @@
+{
+  "selection_scope": {
+    "K": 97,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "held_out": "K97 seeds 4-5 and all K79/K113 runs"
+  },
+  "selection_rule": "accuracy eligibility, complete classifier-first count, right-censored lower-bound evidence, complete pairs, then distance to original K97 onset target",
+  "selected": {
+    "name": "emb512_hid512_e2e-4_d3e-3_wd0p4",
+    "embedding_lr": 0.0002,
+    "decoder_lr": 0.003,
+    "decoder_wd": 0.4,
+    "embedding_dim": 512,
+    "hidden_dim": 512
+  },
+  "discovery_metrics": {
+    "accuracy_pass_count": 3,
+    "classifier_first_complete_count": 3,
+    "classifier_first_lower_bound_count": 0,
+    "complete_onset_pairs": 3,
+    "classifier_onset_mean": 1550,
+    "embedding_onset_mean": 2616.6666666666665,
+    "lead_mean": 1066.6666666666667,
+    "target_distance": 7.732020987654322
+  }
+}

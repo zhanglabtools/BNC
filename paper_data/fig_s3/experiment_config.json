@@ -1,0 +1,23 @@
+{
+  "task": "(a + b) mod K",
+  "moduli": [79, 97, 113],
+  "architectures": ["mlp", "transformer", "lstm", "rnn"],
+  "seeds": [1, 2, 3, 4, 5],
+  "train_fraction": 0.7,
+  "test_fraction": 0.3,
+  "full_batch": true,
+  "epochs": 20000,
+  "requested_geometric_metric_checkpoints": 321,
+  "actual_metric_checkpoints": 240,
+  "optimizer": "AdamW",
+  "optimizer_betas": [0.9, 0.999],
+  "embedding_learning_rate": 0.001,
+  "embedding_weight_decay": 0.0,
+  "remaining_parameter_learning_rate": 0.001,
+  "remaining_parameter_weight_decay": 0.4,
+  "shuffle_controls_per_seed": 16,
+  "seed_aggregation": "mean and sample standard deviation",
+  "x_axis": "logarithmic epoch",
+  "curve_interpolation": false,
+  "model_checkpoints_saved": false
+}

@@ -1,0 +1,17 @@
+{
+  "figure_mapping": "Figure S2",
+  "kind": "raw compressed and aggregate",
+  "source_zip": "rank2_effective_dimension_figure_package_20260731.zip",
+  "source_zip_sha256": "549C9E02BC5365ECF3143F7A4F57E55FD76C565F1CBA4E586BD3637B3D263BB4",
+  "source_relative_path": "rank2_effective_dimension_figure_package_20260731/data/",
+  "files": {
+    "all_runs_metrics.csv.gz": {
+      "rows": 33660,
+      "columns": ["architecture", "K", "seed", "epoch", "learning_rate", "train_loss", "test_loss", "train_accuracy", "test_accuracy", "rx_participation_rank", "ry_participation_rank", "effective_mean_participation_rank", "rx_entropy_rank", "ry_entropy_rank", "effective_mean_entropy_rank", "rx_top2_tail", "ry_top2_tail", "effective_mean_top2_tail", "classifier_participation_rank", "classifier_entropy_rank", "classifier_top2_tail", "classifier_numerical_rank"]
+    },
+    "mean_std_trajectory.csv": {
+      "rows": 6732,
+      "columns": ["architecture", "K", "epoch", "valid_seed_count", "train_accuracy_mean", "train_accuracy_std", "test_accuracy_mean", "test_accuracy_std", "effective_mean_participation_rank_mean", "effective_mean_participation_rank_std"]
+    }
+  }
+}

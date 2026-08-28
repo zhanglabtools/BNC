@@ -1,0 +1,24 @@
+experiment: smoke_alignment
+protocol: alignment
+formal: false
+device: cpu
+train_fraction: 0.7
+grid:
+  architectures: [mlp, transformer, lstm, rnn]
+  moduli: [17]
+  seeds: [1]
+model:
+  mlp_embedding_dim: 32
+  mlp_hidden_dim: 32
+training:
+  epochs: 2
+  requested_checkpoints: 2
+  embedding_lr: 0.001
+  other_lr: 0.001
+  embedding_weight_decay: 0.0
+  other_weight_decay: 0.0
+  betas: [0.9, 0.999]
+metrics:
+  names: [token_geometry, centered_feature_classifier]
+  shuffle_controls: 4
+

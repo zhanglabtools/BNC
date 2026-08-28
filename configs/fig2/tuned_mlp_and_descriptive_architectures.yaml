@@ -1,0 +1,29 @@
+experiment: fig2
+protocol: fig2_bcs
+formal: true
+device: cuda
+train_fraction: 0.7
+grid:
+  architectures: [mlp, transformer, lstm, rnn]
+  moduli: [79, 97, 113]
+  seeds: [1, 2, 3, 4, 5]
+model:
+  mlp_embedding_dim: 512
+  mlp_hidden_dim: 512
+  d_model: 128
+  n_heads: 4
+  d_head: 32
+  d_mlp: 512
+  recurrent_embedding_dim: 128
+  recurrent_hidden_dim: 128
+training:
+  epochs: 10000
+  log_every: 50
+  embedding_lr: 0.0002
+  other_lr: 0.003
+  embedding_weight_decay: 0.0
+  other_weight_decay: 0.4
+  betas: [0.9, 0.98]
+  scheduler: null
+  save_final_checkpoint: true
+

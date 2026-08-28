@@ -1,0 +1,20 @@
+{
+  "figure_mapping": "Figure S4",
+  "kind": "raw compressed and aggregate",
+  "source_zip": "feature_classifier_centered_alignment_multiarchitecture_20k_code_results_no_checkpoints_20260731.zip",
+  "source_zip_sha256": "873F75FF1AB39E0F936E480AB0A03A1ACE1FED91450AD06E1DA179DD3AD6CAE8",
+  "source_relative_paths": [
+    "feature_classifier_centered_alignment_multiarchitecture_20260731/runs_centered_feature_classifier_20k/*/metrics.csv",
+    "feature_classifier_centered_alignment_multiarchitecture_20260731/centered_alignment_summary_by_architecture_epoch.csv"
+  ],
+  "files": {
+    "all_runs_metrics.csv.gz": {
+      "rows": 14400,
+      "columns": ["architecture", "K", "seed", "epoch", "train_accuracy", "test_accuracy", "centered_feature_classifier_alignment", "shuffled_centered_feature_classifier_alignment"]
+    },
+    "centered_alignment_summary.csv": {
+      "rows": 2880,
+      "columns": ["architecture", "K", "epoch", "centered_matched_mean", "centered_matched_std", "centered_shuffled_mean", "centered_shuffled_std", "n_seeds"]
+    }
+  }
+}
